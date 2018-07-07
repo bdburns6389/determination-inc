@@ -65,25 +65,57 @@ class App extends Component {
           {/*GOOGLE_CALENDAR_API_KEY */}
         </div>
         <br />
-        <hr />
+        <hr
+          style={{
+            width: "80%",
+            height: "4px",
+            border: "none",
+            color: "#333",
+            backgroundColor: "#333"
+          }}
+        />
         <br />
 
         <Bio />
 
         <br />
-        <hr />
+        <hr
+          style={{
+            width: "80%",
+            height: "4px",
+            border: "none",
+            color: "#333",
+            backgroundColor: "#333"
+          }}
+        />
         <br />
 
         <Podcast id="podcast" />
 
         <br />
-        <hr />
+        <hr
+          style={{
+            width: "80%",
+            height: "4px",
+            border: "none",
+            color: "#333",
+            backgroundColor: "#333"
+          }}
+        />
         <br />
 
         <TinyLetterSubscribe id="tinyLetter" />
 
         <br />
-        <hr />
+        <hr
+          style={{
+            width: "80%",
+            height: "4px",
+            border: "none",
+            color: "#333",
+            backgroundColor: "#333"
+          }}
+        />
         <br />
 
         <Footer />

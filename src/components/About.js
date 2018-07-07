@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div id="about">
         <p style={{ fontSize: "18pt" }}>
-          <strong>Determination, Incorporated</strong>is a Kansas City-based
+          <strong>Determination, Incorporated</strong> is a Kansas City-based
           nonprofit creating a “felony-friendly” path to entrepreneurship. We
           take a community-based, story-led approach to help currently and
           formerly incarcerated people adopt the entrepreneurial mindset in
