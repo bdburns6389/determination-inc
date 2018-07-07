@@ -88,7 +88,7 @@ class App extends Component {
 
         <Footer />
 
-        <ScrollToTop showUnder={160}>
+        <ScrollToTop showUnder={160} duration={500}>
           <span>
             <img src={UP} alt="UP" />
           </span>
