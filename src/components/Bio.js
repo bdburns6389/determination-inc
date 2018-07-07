@@ -11,7 +11,7 @@ class Bio extends Component {
                 src={BioPic}
                 alt=""
                 style={{ maxHeight: "100%", maxWidth: "100%" }}
-                className="img-responsive"
+                className="img-responsive rounded"
               />
             </div>
           </div>
