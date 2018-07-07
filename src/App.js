@@ -59,6 +59,7 @@ class App extends Component {
               marginLeft: "auto",
               marginRight: "auto"
             }}
+            views={["month"]}
             events={this.state.events}
           />
           {/*   GOOGLE_CALENDAR_ID */}
