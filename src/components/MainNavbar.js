@@ -5,8 +5,7 @@ import {
   NavbarNav,
   NavbarToggler,
   Collapse,
-  NavItem,
-  NavLink
+  NavItem
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
 import facebook from "../facebook.png";
