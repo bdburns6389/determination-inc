@@ -8,7 +8,12 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
     "react-scroll-up": "^1.3.3",
-    "react-tinyletter": "^0.3.2"
+    "react-tinyletter": "^0.3.2",
+    "css-loader": "^0.28.11",
+    "moment": "^2.22.2",
+    "react-big-calendar": "^0.19.2",
+    "style-loader": "^0.21.0",
+    "superagent": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
