@@ -17,7 +17,15 @@ class Bio extends Component {
           </div>
           <div className="col-xs-12 col-md-6">
             <h2>H2</h2>
-            <hr style={{ width: "80%", height: "10px", border: "25" }} />
+            <hr
+              style={{
+                width: "80%",
+                height: "4px",
+                border: "none",
+                color: "#333",
+                backgroundColor: "#333"
+              }}
+            />
             <p>
               Kyle J Smith is the founder of Determination, Incorporated. He is
               an entrepreneurial ecosystem builder in Kansas City, Missouri.
