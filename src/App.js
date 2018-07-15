@@ -8,6 +8,7 @@ import Podcast from "./components/Podcast";
 import Footer from "./components/Footer";
 import UP from "./UP.png";
 import About from "./components/About";
+import ContactForm from "./components/ContactForm";
 import TinyLetterSubscribe from "./components/TinyLetterSubscribe";
 
 import moment from "moment";
@@ -76,6 +77,12 @@ class App extends Component {
           }}
         />
         <br />
+
+        <ContactForm />
+
+        <hr />
+        <br />
+        <hr />
 
         <Bio />
 
