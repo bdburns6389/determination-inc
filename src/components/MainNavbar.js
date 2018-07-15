@@ -39,8 +39,13 @@ class NavbarFeatures extends React.Component {
   render() {
     return (
       <Router>
-        <Navbar color="white" dark expand="md" fixed="top">
-          <NavbarBrand href="/" style={{ color: "black" }}>
+        <Navbar
+          style={{ backgroundColor: "black" }}
+          dark
+          expand="md"
+          fixed="top"
+        >
+          <NavbarBrand href="/" style={{ color: "white" }}>
             <strong>Determination, Inc</strong>
           </NavbarBrand>
           {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick} />}
@@ -82,7 +87,7 @@ class NavbarFeatures extends React.Component {
                 padding: "5px"
               }}
             >
-              <a href="#about" style={{ color: "black" }}>
+              <a href="#about" style={{ color: "white" }}>
                 About
               </a>
             </NavItem>
@@ -94,7 +99,7 @@ class NavbarFeatures extends React.Component {
                 padding: "5px"
               }}
             >
-              <a href="#bigCalendar" style={{ color: "black" }}>
+              <a href="#bigCalendar" style={{ color: "white" }}>
                 Calendar
               </a>
             </NavItem>
