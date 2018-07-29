@@ -52,7 +52,16 @@ class NavbarFeatures extends React.Component {
   render() {
     return (
       <Router>
+<<<<<<< HEAD
         <Navbar color={this.state.color} dark expand="md" fixed="top">
+=======
+        <Navbar
+          style={{ backgroundColor: "black" }}
+          dark
+          expand="md"
+          fixed="top"
+        >
+>>>>>>> 1ce1a3de3be9ad077925adeba4faeb2cfec77519
           <NavbarBrand href="/" style={{ color: "white" }}>
             <strong>Determination, Inc</strong>
           </NavbarBrand>
