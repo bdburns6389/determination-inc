@@ -18,10 +18,23 @@ class NavbarFeatures extends React.Component {
     this.state = {
       collapse: false,
       isWideEnough: false,
-      dropdownOpen: false
+      dropdownOpen: false,
+      color: "transparent"
     };
     this.onClick = this.onClick.bind(this);
     this.toggle = this.toggle.bind(this);
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 200) {
+      this.setState({ color: "black" });
+    } else {
+      this.setState({ color: "transparent" });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
   }
 
   onClick() {
@@ -39,8 +52,8 @@ class NavbarFeatures extends React.Component {
   render() {
     return (
       <Router>
-        <Navbar color="white" dark expand="md" fixed="top">
-          <NavbarBrand href="/" style={{ color: "black" }}>
+        <Navbar color={this.state.color} dark expand="md" fixed="top">
+          <NavbarBrand href="/" style={{ color: "white" }}>
             <strong>Determination, Inc</strong>
           </NavbarBrand>
           {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick} />}
@@ -77,24 +90,22 @@ class NavbarFeatures extends React.Component {
             <NavbarNav right />
             <NavItem
               style={{
-                color: "black",
                 listStyleType: "none",
                 padding: "5px"
               }}
             >
-              <a href="#about" style={{ color: "black" }}>
+              <a href="#about" style={{ color: "white" }}>
                 About
               </a>
             </NavItem>
             <NavItem
               style={{
-                color: "black",
                 listStyleType: "none",
                 textDecoration: "none",
                 padding: "5px"
               }}
             >
-              <a href="#bigCalendar" style={{ color: "black" }}>
+              <a href="#bigCalendar" style={{ color: "white" }}>
                 Calendar
               </a>
             </NavItem>
