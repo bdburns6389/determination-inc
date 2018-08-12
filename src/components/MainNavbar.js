@@ -52,7 +52,13 @@ class NavbarFeatures extends React.Component {
   render() {
     return (
       <Router>
-        <Navbar color={this.state.color} dark expand="md" fixed="top">
+        <Navbar
+          color={this.state.color}
+          className="z-depth-0"
+          dark
+          expand="md"
+          fixed="top"
+        >
           <NavbarBrand href="/" style={{ color: "white" }}>
             <strong>Determination, Inc</strong>
           </NavbarBrand>
